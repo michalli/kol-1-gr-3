@@ -52,7 +52,13 @@ class DefaultController extends Controller
     /* Q */
 
     /* R */
-
+/**
+* @Route("/waste.html", name="waste")
+*/
+public function  wasteAction()
+{
+    return $this->render('default/waste.html.twig');
+}
     /* S */
 
     /* T */
