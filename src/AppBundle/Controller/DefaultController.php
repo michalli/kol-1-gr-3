@@ -52,7 +52,13 @@ class DefaultController extends Controller
     /* Q */
 
     /* R */
-
+        /**
+        * @Route("/focusontoday.html", name="focusontoday")
+        */
+        public function focusontodayAction()
+        {
+          return $this->render('default/focusontoday.html.twig');
+        }
     /* S */
 
     /* T */
